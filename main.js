@@ -73,3 +73,6 @@ function stopRun(event){
     keys[event.key] = false;
 };
 
+function dsasd(){
+    
+}
