@@ -1,8 +1,29 @@
-.hide{
+        .hide{
     display: none;
 }
+
+
+.game__area {
+    width: 300px;
+    height: 100vh;
+    position: relative;
+    margin: auto;
+    background: #222222;
+}
+
 .car{
     width:50px;
     height: 100px;
     background: transparent url(./image/player.png) center/ cover no-repeat;
+    position: absolute;
+    left: 125px;
+    bottom: 10px;
+}
+
+.line {
+    position: absolute;
+    width: 10px;
+    height: 50px    ;
+    background: white;
+    left: 145px;
 }
